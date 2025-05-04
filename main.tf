@@ -7,7 +7,7 @@ resource "aws_instance" "public" {
   vpc_security_group_ids = [aws_security_group.allow_ssh.id]
  
   tags = {
-    Name = "Kamsani-ec2"    #Prefix your own name, e.g. jazeel-ec2
+    Name = "Kamsani1-ec2"    #Prefix your own name, e.g. jazeel-ec2
   }
 }
 
